@@ -60,7 +60,7 @@ public static class TestesObjeto
                 context.SetState(new ResultadoContador());
                 break;
             case "get":
-                context.Return(context.GetState<int>());
+                context.Return(context.GetState<ResultadoContador>());
                 break;
         }
     }
